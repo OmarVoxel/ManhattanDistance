@@ -1,4 +1,4 @@
-﻿using System.Drawing;
+﻿using System;
 
 namespace ManhattanDistance
 {
@@ -19,7 +19,6 @@ namespace ManhattanDistance
             => (_pointA , _pointB) = (pointA, pointB);
 
         public int Calculate()
-            => 0;
-
+            => Math.Abs(_pointA.X - _pointB.X) + Math.Abs(_pointA.Y - _pointB.Y);
     }
 }
