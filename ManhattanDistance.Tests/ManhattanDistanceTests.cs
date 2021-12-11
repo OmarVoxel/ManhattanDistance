@@ -6,15 +6,18 @@ namespace ManhattanDistance.Tests
 {
     public class ManhattanDistanceTests
     {
-        [Fact]
-        public void PointAOneOneAndPointBOneOneReturns0()
+        [Theory]
+        [InlineData(1,1,1,1, 0)]
+        [InlineData(3,2,5,4, 4)]
+        public void PointAOneOneAndPointBOneOneReturns0
+            (int pointAx, int pointAy, int pointBx, int pointBy, int distance)
         {
             ManhattanDistance manhattanDistance = new(
-                new Point(1, 1),
-                new Point(1, 1)
+                new Point(pointAx, pointAy),
+                new Point(pointBx, pointBy)
             );
-
-            manhattanDistance.Calculate().Should().Be(0);
+            
+            manhattanDistance.Calculate().Should().Be(distance);
         }
     }
 }
