@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManhattanDistance", "ManhattanDistance\ManhattanDistance.csproj", "{FFCF9F9F-B57B-4926-951D-10DBAB3435FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManhattanDistance.Tests", "ManhattanDistance.Tests\ManhattanDistance.Tests.csproj", "{CE709E80-533D-45BD-A50A-D1212A5D17EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFCF9F9F-B57B-4926-951D-10DBAB3435FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCF9F9F-B57B-4926-951D-10DBAB3435FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCF9F9F-B57B-4926-951D-10DBAB3435FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCF9F9F-B57B-4926-951D-10DBAB3435FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE709E80-533D-45BD-A50A-D1212A5D17EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE709E80-533D-45BD-A50A-D1212A5D17EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE709E80-533D-45BD-A50A-D1212A5D17EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE709E80-533D-45BD-A50A-D1212A5D17EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
